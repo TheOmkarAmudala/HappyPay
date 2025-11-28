@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HappyPay/static/css/main.ab654827.css",
-    "main.js": "/HappyPay/static/js/main.67feb764.js",
+    "main.js": "/HappyPay/static/js/main.65d8ec90.js",
     "static/media/hero.png": "/HappyPay/static/media/hero.e35b1d345ce6e337a739.png",
     "static/media/why.png": "/HappyPay/static/media/why.adaa2410d9c0be9ae682.png",
     "static/media/content.png": "/HappyPay/static/media/content.23db13449685afb7c394.png",
@@ -14,10 +14,10 @@
     "static/media/education_fee_step_4.png": "/HappyPay/static/media/education_fee_step_4.26e018a0001160be9103.png",
     "index.html": "/HappyPay/index.html",
     "main.ab654827.css.map": "/HappyPay/static/css/main.ab654827.css.map",
-    "main.67feb764.js.map": "/HappyPay/static/js/main.67feb764.js.map"
+    "main.65d8ec90.js.map": "/HappyPay/static/js/main.65d8ec90.js.map"
   },
   "entrypoints": [
     "static/css/main.ab654827.css",
-    "static/js/main.67feb764.js"
+    "static/js/main.65d8ec90.js"
   ]
 }
