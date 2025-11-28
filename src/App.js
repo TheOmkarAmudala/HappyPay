@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import WhySection from './components/WhySection'
+import Steps from './components/Steps'
+import Benefits from './components/Benefits'
+import HassleFree from './components/HassleFree'
+import FAQ from './components/FAQ'
+import Footer from './components/Footer'
+import ScanModal from './components/ScanModal'
 
-function App() {
+export default function App(){
+  const [showScan, setShowScan] = useState(false)
+
+  const openScan = () => setShowScan(true)
+  const closeScan = () => setShowScan(false)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <div>
 
-export default App;
+        <Header />
+        <Hero onOpenScan={openScan} />
+        <WhySection />
+        <Steps />
+        <Benefits onOpenScan={openScan} />
+        <HassleFree />
+        <FAQ />
+        <div className="payRentBtn">
+          <a href="https://www.easemydeal.com/download-app" className="slide-btn2">Download App</a>
+        </div>
+        <Footer />
+
+        <ScanModal open={showScan} onClose={closeScan} />
+      </div>
+  )
+}

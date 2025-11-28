@@ -24,6 +24,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <!-- Load Lobster font for font-lobster utility -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Inline Tailwind Play CDN config (fast dev fallback without npm install) -->
+    <script>
+      tailwind = window.tailwind || {};
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { theme: '#f36f40' },
+            fontFamily: { lobster: ['Lobster', 'cursive'] }
+          }
+        }
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>React App</title>
   </head>
   <body>
