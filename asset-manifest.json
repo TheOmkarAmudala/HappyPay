@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HappyPay/static/css/main.ab654827.css",
+    "main.js": "/HappyPay/static/js/main.8becf338.js",
+    "static/media/hero.png": "/HappyPay/static/media/hero.e35b1d345ce6e337a739.png",
+    "static/media/why.png": "/HappyPay/static/media/why.adaa2410d9c0be9ae682.png",
+    "static/media/content.png": "/HappyPay/static/media/content.23db13449685afb7c394.png",
+    "static/media/logo.png": "/HappyPay/static/media/logo.af6da887de337bf883d2.png",
+    "static/media/app-image.png": "/HappyPay/static/media/app-image.2f5c591c659866b7f879.png",
+    "static/media/education_fee_step_3.png": "/HappyPay/static/media/education_fee_step_3.a51330e44712dc354d52.png",
+    "static/media/download-app-qr.png": "/HappyPay/static/media/download-app-qr.09f869c0778961632b27.png",
+    "static/media/education_fee_step_1.png": "/HappyPay/static/media/education_fee_step_1.c9ed7367a3f29f479533.png",
+    "static/media/education_fee_step_2.png": "/HappyPay/static/media/education_fee_step_2.6bf986ccedf3853a300d.png",
+    "static/media/education_fee_step_4.png": "/HappyPay/static/media/education_fee_step_4.26e018a0001160be9103.png",
+    "index.html": "/HappyPay/index.html",
+    "main.ab654827.css.map": "/HappyPay/static/css/main.ab654827.css.map",
+    "main.8becf338.js.map": "/HappyPay/static/js/main.8becf338.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab654827.css",
+    "static/js/main.8becf338.js"
+  ]
+}
